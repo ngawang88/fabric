@@ -496,7 +496,7 @@ You can then issue the following commands to package the JavaScript chaincode fr
 ```
 export PATH=${PWD}/../bin:$PATH
 export FABRIC_CFG_PATH=$PWD/../config/
-export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+
 peer lifecycle chaincode package basic_2.tar.gz --path ../asset-transfer-basic/chaincode-javascript/ --lang node --label basic_2.0
 ```
 Run the following commands to operate the `peer` CLI as the Org1 admin:
